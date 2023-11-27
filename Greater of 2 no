@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<stdbool.h>
+void main()
+{
+	int a=31,b=21;
+	int c;
+	c=a*(bool)(a/b)+b*(bool)(b/a);
+	printf("greatest is:%d",c);
+
+}
