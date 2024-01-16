@@ -21,12 +21,13 @@ int vowels(char str[]){
     char VOW[]="AEIOU";
     for(int i = 0; str[i] != '\0'; i++){
         char ch = str[i];
-        if((ch in vow) || (ch in VOW)){ 
-            count++;
+        for(int j=0; j<5; j++)
+            if((ch == vow[j]) || (ch == VOW[j])){ 
+                count++;
         }
     }
     printf("There are %d vowels in given str", count);
 }
-//This program is wrong and we have to check of individual vowels
-
+//This program is not wrong and we have to check of individual vowels
+//This program is updated on 12 Dec, 2023...and now it's working properly...
     

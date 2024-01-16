@@ -20,7 +20,7 @@ int main(){
 
     char cannotChange[] = "Hello World";        //string without pointer & cannot be changed
     puts(cannotChange);
-    cannotChange = "Hello Guys";        //red line indicates that when [] notation is used 
+//    cannotChange[] = "Hello Guys";        //red line indicates that when [] notation is used 
     puts(canChange);                    //then it is treated as string and strings are not changable
 
     return 0;

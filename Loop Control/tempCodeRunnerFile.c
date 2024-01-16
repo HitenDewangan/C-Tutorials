@@ -1,6 +1,8 @@
-void printstring(char arr[]) {
-    for(int i=0; arr[i] != '\0'; i++){
-        printf("%c", arr[i]);
-    }
-    printf("\n");
-}
+if (isUnique) {
+        //     for (int j = i + 1; j < size; j++) {
+        //         if (arr[i] == arr[j]) {
+        //             isUnique = 0;
+        //             break;
+        //         }
+        //     }
+        // }
