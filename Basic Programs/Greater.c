@@ -12,3 +12,5 @@ void main()
     printf("smallest is:%d",d);
 
 }
+//greatest is:31
+//smallest is:20

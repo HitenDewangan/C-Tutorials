@@ -14,3 +14,4 @@ void main(){
 	}
 	printf("Number of spaces is: %d",count);
 }
+//this program is successful
